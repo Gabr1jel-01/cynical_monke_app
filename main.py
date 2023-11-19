@@ -30,7 +30,8 @@ class App(ctk.CTk):
                                                    height=100,
                                                    font=("Verdana",24),
                                                    corner_radius=0,
-                                                   border_width=0)
+                                                   border_width=0
+                                                )
         self.add_collection_button.grid(row=1,column=0,sticky="w")
         
         
@@ -179,11 +180,10 @@ class App(ctk.CTk):
                                        corner_radius=0)
         self.main_frame.place(x=200,y=100)
         
-        
-        
         #endregion
         
-        
+  
+           
         
         
         
