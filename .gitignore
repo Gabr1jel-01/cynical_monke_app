@@ -119,6 +119,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+desktop_app/
 
 # Spyder project settings
 .spyderproject
