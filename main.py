@@ -5,12 +5,12 @@ import tkinter as tk
 class App(ctk.CTk):
     def __init__(self):
         super().__init__()
-        self.geometry("1600x900")
+        self.geometry("1800x900")
         self.title("Basic app")
         
         #region SHORTER FRAME 
-        self.shorter_title_frame = ctk.CTkFrame(self,width=200,height=200)
-        self.shorter_title_frame.place(x=0,y=0)
+        self.shorter_title_frame = ctk.CTkFrame(self)
+        self.shorter_title_frame.grid(row=0,column=0)
         
         # MAIN LABEL NAME OF PROJECT
         self.shorter_title_frame_label = ctk.CTkLabel(self.shorter_title_frame,
@@ -132,21 +132,20 @@ class App(ctk.CTk):
                
         #region LONGER FRAME
         
-        self.longer_title_frame = ctk.CTkFrame(self,width=1400,
-                                               height=100,
+        self.longer_title_frame = ctk.CTkTabview(self,
                                                fg_color="#4a8fcd",
+                                               height=12,
                                                corner_radius=0)
-        self.longer_title_frame.place(x=200,y=0)
+        self.longer_title_frame.grid(row=0,column=2,sticky="nw")
+        self.grid_columnconfigure(1,weight=2)
+        
       
-      
-      
+    """
         # COLLECTION LABEL
         self.collections_label = ctk.CTkLabel(self.longer_title_frame,
                                               text="Collections",
-                                              height=100,
-                                              width=200,
                                               font=("Verdana",24))
-        self.collections_label.place(x=0,y=0)
+        self.collections_label.grid(row=0,column=1)
         
         #IMPORT LABEL
         self.import_label = ctk.CTkLabel(self.longer_title_frame,
@@ -179,8 +178,8 @@ class App(ctk.CTk):
                                        width=1385,
                                        corner_radius=0)
         self.main_frame.place(x=200,y=100)
-        
-        #endregion
+  """      
+#endregion
         
   
            
