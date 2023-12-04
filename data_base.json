@@ -1,0 +1,58 @@
+{
+    "AppConfig": {},
+    "UserData": {
+        "logged-in": false
+    },
+    "Collections": {
+        "Group1": {
+            "name": "Group1",
+            "content": ["Ball", "Dog"]
+        },
+        "Group2": {
+            "name": "Group2",
+            "content": ["Cat", "Flowers"]
+        },
+        "Group3": {
+            "name": "Group3",
+            "content": ["Yarn", "Python"]
+        },
+        "Group4":{ 
+            "name": "Group4",
+            "content": ["Shark", "Bat"]
+        },
+        "Group5":{ 
+            "name": "Group4",
+            "content": ["Shark", "Bat"]
+        },
+        "Group12":{ 
+            "name": "Group4",
+            "content": ["Shark", "Bat"]
+        },
+        "Group6":{ 
+            "name": "Group4",
+            "content": ["Shark", "Bat"]
+        },
+        "Group7":{ 
+            "name": "Group4",
+            "content": ["Shark", "Bat"]
+        },
+        "Group8":{ 
+            "name": "Group4",
+            "content": ["Shark", "Bat"]
+        },
+        "Group9":{ 
+            "name": "Group4",
+            "content": ["Shark", "Bat"]
+        },
+        "Group10":{ 
+            "name": "Group4",
+            "content": ["Shark", "Bat"]
+        },
+        "Group11":{ 
+            "name": "Group4",
+            "content": ["Shark", "Bat"]
+        }
+        
+    },
+    "Assets": {}
+}
